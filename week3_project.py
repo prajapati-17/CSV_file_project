@@ -26,7 +26,6 @@ def print_table(new_table):
         print(row)
 
 
-name_table = read_csv_fieldnames(
-    r"D:\python\coursera excersise\dictionary\iterating\name_table.csv", ",", ";")
+name_table = read_csv_fieldnames("name_table.csv", ",", ";")
 print_table(name_table)
 print("")
